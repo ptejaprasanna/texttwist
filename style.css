@@ -1,0 +1,62 @@
+.page-header{
+    text-align:center;
+    color:blue;
+    }
+
+body{
+    background-image: url(https://images7.alphacoders.com/424/thumb-1920-424100.png);
+}
+
+
+.remaining-words{
+    display:inline;
+}
+
+.letters{
+    display:inline;
+}
+
+
+.wordslist{
+    float:left;
+    height: fit-content;
+    width: fit-content;
+    display: inline-grid;
+    border: 2px solid;
+}
+
+.game-levels{
+    text-align:center;
+    font-size: 20px;
+}
+
+
+.section{
+    text-align: center;
+}
+
+#section-words-remaining{
+    font-size: 20px;
+
+}
+
+#submit{
+    display:inline;
+    position:absolute;
+    top: 40%;
+    right: 50%;
+}
+
+#clear{
+    display:inline;
+    position:absolute;
+    top: 40%;
+    right: 45%;
+}
+
+
+#game_timer{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
